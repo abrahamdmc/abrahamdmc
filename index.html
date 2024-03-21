@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="img/faviicon.jpg" type="image/x-icon">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#"><i class='bx bxs-cat' id="logo"></i></a>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu"></i>
+            <i class='bx bx-x' id="close"></i>
+        </label>
+        <a href="#" style="--i:0"></a>
+        <nav class="navbar">
+            <a href="#" style="--i:0">start</a>
+            <a href="#" style="--i:1">information</a>
+            <a href="#" style="--i:2">jobs</a>
+            <a href="#" style="--i:3">services</a>
+            <a href="#" style="--i:4">contact</a>
+        </nav>
+    </header>
+<main>
+    <div class="box">
+        <img class="box__img" src="img/programmer.png" alt="">
+        <div class="box__description">
+           <h1>acerca de mí</h1>
+           <p>hola cómo están me llamó Ever y esta es mi primera página web y estaré mejorando y agregándole mas cosas a mi página web con el pasar de los días espero que les guste.</p>
+        </div>
+    </div>
+</main>
+    <h2 class="mis-trabajos">mis trabajos</h2>
+    <section class="section">
+        <div class="trabajos">
+            <img class="imagen__trabajos" src="img/gamer1.webp" alt="">
+            <h3>set gamer 1</h3>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa odio reprehenderit ab dolor rem! Aliquid molestiae explicabo nulla autem quod, a recusandae molestias nihil asperiores at temporibus error, unde consectetur!</p>
+            <a href="https://www.hobbyconsolas.com/reportajes/empezando-como-gamer-estos-accesorios-low-cost-te-ayudaran-tener-set-gaming-bastante-digno-918169">saber más</a>
+        </div>
+        <div class="trabajos">
+            <img class="imagen__trabajos" src="img/gamer1.webp" alt="">
+            <h3>set gamer 2</h3>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque laudantium molestiae quasi incidunt perferendis neque explicabo obcaecati, maiores doloremque magnam et vel laborum necessitatibus saepe, sunt illo. Laborum voluptatum impedit </p>
+            <a href="https://www.tu.com/blogs/noticias/montar-setup-gaming">saber más</a>
+        </div>
+        <div class="trabajos">
+            <img class="imagen__trabajos" src="img/gamer1.webp" alt="">
+            <h3>set gamer 3</h3>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ducimus nostrum molestiae quibusdam laboriosam, praesentium saepe consequatur recusandae, nam deserunt veritatis, laborum ratione hic suscipit nisi deleniti magni voluptatem. Atque.</p>
+            <a href="https://pressover.news/opinion/los-pobres-tambien-juegan/">saber más</a>
+        </div>
+    </section>
+    <div class="login-box">
+        <form action="index.php" method="post" id="form">
+
+            <h3 id="contacto">contacto</h3>
+            <p>!Esperamos tu consulta!</p>
+            
+            <div class="input-box">
+                <span class="icon">
+                    <i class='bx bx-user'></i>
+                </span>
+                <input type="text" id="nombre"  name="nombre">
+                <label for="nombre">nombre</label>
+            </div>
+
+            <div class="input-box">
+                <span class="icon">
+                    <i class='bx bxl-gmail'></i>
+                </span>
+                <input type="email" id="email"  name="email" required>
+                <label for="email">email</label>
+            </div>
+
+            <div class="text-box">
+                <label for="mensaje">mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="20" rows="7"></textarea>
+            </div>
+            <button type="submit">ENVIAR</button>
+            <p class="alertas" id="alertas"></p>
+        </form>
+    </div>
+
+
+    <footer>
+     <div class="footer">
+        <h3>redes sociales </h3>
+        <a href="https://youtube.com/@Autod3v?si=OAr4D2Q81b7WQ29K"><i id="icons-footer" class='bx bxl-youtube' ></i></a>
+        <a href="https://discord.com/users/980308079751098373"><i id="icons-footer" class='bx bxl-discord-alt' ></i></a>
+     </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
